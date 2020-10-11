@@ -1,0 +1,338 @@
+body {
+    margin: 0px;
+    padding: 0px auto;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: -.3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+label {
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: -.3px;
+}
+
+p {
+    font-size: 16;
+    color: #4A4A4A;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+h2 {
+    color: #9E1F63;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #9E1F63;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    color: #9e1f63;
+    font-weight: 700;
+}
+
+.header {
+    background: url('../image/future-of-insurance-bg.png');
+    width: 100%;
+    min-height: 450px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    mix-blend-mode: normal;
+    padding-top: 50px;
+    position: relative;
+}
+
+.bottom-line {
+    height: 8px;
+    background-color: #7D0D49;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    opacity: .6;
+}
+
+.content img {
+    margin: auto;
+    display: block;
+}
+
+.web-title {
+    background: url('../image/opac-bg.png');
+    background-repeat: repeat;
+    width: 530px;
+    margin: auto;
+    margin-top: -15px;
+    padding: 12px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.web-title span {
+    font-weight: normal;
+}
+
+.time-zone {
+    margin-top: 10px;
+}
+
+.box-time {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.box-time>div {
+    width: 96px;
+    height: auto;
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #9e1f63;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.box-time label {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: -14px;
+}
+
+
+.text {
+    color: #9e1f63;
+    font-weight: 700;
+
+}
+
+.group {
+
+    background: url('../image/mid-section-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box-1 {
+    background-color: #f6f6f6;
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 300px;
+}
+
+.box-2 {
+    background-color: #f6f6f6;
+    margin-top: 250px;
+    margin-left: 190px;
+    width: 315px;
+}
+
+.box-3 {
+    background-color: #f6f6f6;
+    height: 215px;
+    margin-top: 50px;
+}
+
+.big-paragraph {
+
+    color: #4A4A4A;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 0.3;
+    border: 6px solid #9E1F63;
+    mix-blend-mode: normal;
+}
+
+.webinar-details {
+    margin: 10px auto;
+    padding-top: 80px;
+}
+
+.webinar-details p {
+    margin-top: 20px;
+}
+
+.form-box {
+    background-color: #f6f6f6;
+    display: inline-block;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form-text {
+    margin-bottom: 20px;
+}
+
+.form-text h2 {
+    margin-bottom: 5px;
+}
+
+.label {
+    float: left;
+}
+
+ul {
+    list-style-image: url("../image/eclipse-1.png ");
+    list-style-position: outside;
+    float: left;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+
+}
+
+li {
+    margin-left: -15px;
+}
+
+.footer {
+    max-width: 100%;
+    margin-top: 70px;
+    background-color: #4a4a4a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-img {
+
+
+    max-width: 100%;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.footer-text {
+    color: #fff;
+
+
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
+@media only screen and (max-width:992px) {
+    .group {
+        background: none;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .box-1 {
+        background-color: #f6f6f6;
+        margin-top: 120px;
+        margin-left: 5px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .box-2 {
+        background-color: #f6f6f6;
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+
+
+
+    }
+
+    .box-3 {
+        background-color: #f6f6f6;
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+
+
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .web-title {
+        width: 100%;
+    }
+
+    .web-title h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .webinar-details {
+        padding-top: 0px;
+    }
+
+    .big-paragraph {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-img {
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
+}
